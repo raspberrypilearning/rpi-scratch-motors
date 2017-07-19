@@ -1,19 +1,11 @@
-## Introduction
+With the motor controller board connected to your Raspberry Pi, and Scratch 2 open, you can control the direction of your motors easily,
 
-Add project description here. What will learners be making?
+- The motor controller board is linked with pins 7, 8, 9 and 10. For the purposes of this guide, the right hand motor is connected to pins 7 and 8, and the left hand motor is connected to pins 9 and 10.
 
-### What you will make
+- To drive both motors forward, you need to send pins 7 and 9 high. Pins 8 and 10 need to be sent low.
 
-Add something here to showcase here, for example:
+- To drive both motors backward, you need to send pins 8 and 10 high, and pins 7 and 9 low.
 
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
+- If you want to turn the motors in opposite directions (for turning a robot, for instance), you could send pins 7 and 10 high, and pins 8 and 9 low.
 
-Add instructions here. These should explain either how the finished project will work, or explain how to interact with the content above.
-
-### What you will learn
-
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
-
-+ [Add curriculum strand/level description.](https://www.raspberrypi.org/curriculum/strand/level)
+- To turn in the other direction, send pins 8 and 9 high, while pins 7 and 10 are sent low.
