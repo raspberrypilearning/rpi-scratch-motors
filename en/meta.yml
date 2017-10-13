@@ -1,0 +1,16 @@
+title: Controlling motors with Scratch
+hero_image: images/banner.png
+description: Control motors with Scratch 2 on the Raspberry Pi
+original_url:
+theme: green
+duration: 2
+listed: false
+ingredient: true
+copyedit: false
+curriculum: 
+interests: 
+technologies: "physical computing, scratch"
+site_areas:
+steps:
+  - title: Control motors
+
